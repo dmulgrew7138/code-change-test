@@ -1,4 +1,7 @@
-print("10 green bottles, hanging on the wall")
-print("10 green bottles, hanging on the wall")
-print("And if 1 green bottle should acidentally fall,")
-print("They'll be 9 green bottles hanging on the wall.")
+##10 GREEN BOTTLES RHYME##
+import time
+bottles = 10
+for z in range(bottles,0,-1):
+    print("{0} green bottles on the wall, {0} green bottles on the wall.".format(z))
+    time.sleep(0.5)
+    print("And if one should fall, they'll be {0} green bottles on the wall.".format(z,-1))
